@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CustomCollectionViewCell" customModule="primeiroProjetoCollectionViewCurso" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="148"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LJA-vx-NFO">
+                        <rect key="frame" x="0.0" y="0.0" width="391" height="148"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LJA-vx-NFO" secondAttribute="bottom" id="WdC-GN-EWM"/>
+                <constraint firstItem="LJA-vx-NFO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YoQ-JR-7f4"/>
+                <constraint firstAttribute="trailing" secondItem="LJA-vx-NFO" secondAttribute="trailing" id="a84-pc-dt3"/>
+                <constraint firstItem="LJA-vx-NFO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gmJ-mm-ZQc"/>
+            </constraints>
+            <size key="customSize" width="391" height="148"/>
+            <connections>
+                <outlet property="carImageView" destination="LJA-vx-NFO" id="2pu-gg-jZD"/>
+            </connections>
+            <point key="canvasLocation" x="390.07633587786256" y="23.239436619718312"/>
+        </collectionViewCell>
+    </objects>
+</document>
